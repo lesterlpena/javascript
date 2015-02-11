@@ -1,0 +1,19 @@
+<script>
+function getShortMessages(messages) {
+	return messages.map(function(object) {
+		if (object.message.length < 50)
+			return object.message;
+	}).filter(function(message) {
+		return typeof message !== 'undefined';
+	})
+}
+
+console.log(getShortMessages(
+	[
+		{'message': 'Tempor quis esse consequat sunt ea eiusmodsdfasdfklasjdflkajsdfkljasdlkfjasdklfjasdklfjasdf.'},
+	    {'message':'Id culpa ad proident ad nulla laborum incididuntasdfkjhasdf asdkfjhasdf asdflkjhasdf asdfkljhasdf asdflkajsdf asdflaskjdfhasd fklajsdf.'},
+	    {'message':'Ullamco in ea et ad anim anim ullamco est.'},
+	    {'message':'Est ut irure irure nisi.'}
+    ]
+));
+</script>
