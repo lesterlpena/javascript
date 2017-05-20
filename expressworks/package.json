@@ -1,0 +1,21 @@
+{
+  "name": "expressworks-tutorial",
+  "version": "1.0.0",
+  "description": "practicing express framework",
+  "main": "1_hello.js",
+  "dependencies": {
+    "body-parser": "^1.17.1",
+    "express": "^4.15.2",
+    "pug": "^2.0.0-beta11"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/lesterlpena/javascript/expressworks"
+  },
+  "author": "Lester Pena",
+  "license": "ISC"
+}
