@@ -1,2 +1,5 @@
 # javascript
-practices nodeschool.io exercices
+practices javascript with
+
+* nodeschool.io
+* hackerrank
